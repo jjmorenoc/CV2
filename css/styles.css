@@ -1,0 +1,129 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Epilogue", sans-serif;
+}
+h1 {
+  color: #66BFBF;
+  font-family: "helvetica", sans-serif;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
+ }
+
+h2, h3 {
+  color: #11999E;
+}
+hr {
+  background-color: transparent;
+  border-color: #eaf6f6; /* otro border-color: #87B8FA; */
+  border-width: 7px;
+  border-top-style: none;
+  border-bottom-style: dotted;
+  border-left-style: none;
+  border-right-style: none;
+  height: 4px;
+  margin: 1.5em auto;
+  width: 5%;
+}
+.top-container {
+  background-color: #eaf6f6;
+  color: #66BFBF;
+  font-size: 2.0rem;
+  font-weight: normal;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  padding-bottom: 40px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.footer-link {
+  color: #11999E;
+  font-weight: bold;
+  margin: 0 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.profile-text {
+  line-height: 150%;
+  margin: auto;
+  width: 50%;
+}
+.pro {
+  font-weight: bold;
+  /*text-decoration: underline;*/
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+.bottom-cloud {
+  bottom: 300px;
+  position: absolute;
+  left: 250px;
+}
+.skill-img1 {
+  float: left;
+  margin-right: 28px;
+  width: 27%;
+}
+.skill-img2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.skill-row {
+  line-height: 150%;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+a.btn {
+  background-color: #2bc4ad;
+  background-image: none; /* IMPORTANTE: es necesario definir
+     primero "background-image: none;" para que funcionen las
+     definiciones posteriores. */
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border: solid #337fed 1px;
+  border-radius: 10px;
+  border-top: 1px solid #66bfbf;
+  border-right: 1px solid #66bfbf;
+  border-bottom: 1px solid #66bfbf;
+  border-left: 1px solid #66bfbf;
+  box-shadow: 1px 1px 10px 0 #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font: 20px helvetica;
+  margin: 20px auto 1px;
+  padding: 15px 20px 12px 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px 20px #ffffff;
+ }
+ a.btn:hover {
+  background-color: #EAF6F6;
+  background-image: none; /* IMPORTANTE: es necesario definir
+     primero "background-image: none;" para que funcionen las
+     definiciones posteriores. */
+  background-image: linear-gradient(to bottom, #11cdd4, #2bc4ad);
+  border-radius: 10px;
+  color: #40514e;
+  font: 20px helvetica;
+  padding: 15px 20px 12px 20px;
+  text-decoration: none;
+ }
+
+ .copyr {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+ }
